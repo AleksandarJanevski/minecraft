@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color: #262926;
+    height: 3000px;
+    background-image: url(https://static.planetminecraft.com/files/image/minecraft/texture-pack/2021/040/14099954-grimrock_m.jpg);
+    
+  }
+  header{
+    position: static;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+   /* background-image: url(https://i.pinimg.com/originals/f3/44/74/f344745bd37b52b4eaf0071e1160d070.jpg);*/
+   /*background-image: url(https://art.pixilart.com/88c60f4ee147626.png);*/
+   background-image: url(https://www.tynker.com/minecraft/api/block?id=5872f8861c36d1786b8b4567&w=400&h=400&width=400&height=400&mode=contain&format=jpg&quality=75&cache=max&v=1483929734);
+   background-size: contain;
+  }
+  header img{
+    max-width: 70%;
+  }
+  nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    background-color: #363636;
+    background-image: url(https://i.pinimg.com/originals/e9/90/4c/e9904cdb30314092a60f1ec18711bbbf.jpg);
+    z-index: 2;
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    }
+    
+  nav ul li {
+    display:inline-block;
+    }
+  
+  nav a {
+    display:block;
+    padding:0 20px;	
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+  }
+  
+  nav a:hover { 
+    background-color: #51ff00; 
+  }
+  
+  /* Hide Dropdowns by Default */
+  nav ul ul {
+    display: none;
+    position: absolute;
+    
+    top: 60px; /* the height of the main nav */
+  }
+    
+  /* Display Dropdowns on Hover */
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+    
+  /* Fisrt Tier Dropdown */
+  nav ul ul li {
+    width:250px;
+    float:none;
+    display:list-item;
+    position: relative;
+    background-color: #3f3f3f;
+  }
+  
+  /* Second, Third and more Tiers	*/
+  nav ul ul ul li {
+    position: relative;
+    top:-60px; 
+    left:170px;
+  }
+ nav i{
+  display: flex;
+  position: absolute;
+  right: 20px;
+  line-height: 55px;
+  top:20px;
+  margin: 10px 5px 0 0;
+ }
+ nav i:hover{
+  color: #5865F2
+ }
+.logo{
+  margin-left: 250px;
+}
+
+/* MY WORKING CODE - FINALLY
+body{
+   background: grey;
+}
+header{
+   color:white;
+   font: arial;
+   font-size:50px;
+   display:flex;
+   justify-content:center;
+}
+nav{
+   background:orange;
+   width:100%;
+   height:60px;
+   top:0;
+   position:sticky;
+}
+nav ul{
+   display:flex;
+   flex-direction:row;
+   position:relative;
+   list-style:none;
+}
+nav a{
+   text-decoration:none;
+   color:black;
+   margin:0 20px;
+   line-height:60px;
+}
+nav ul li ul{
+   flex-direction:column;
+   position:absolute;
+   display:none;
+   width:180px;
+   background:red;
+}
+nav ul li:hover ul{
+   display:block;
+   background:blue;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 14px;
+    float: left;
+    padding: 22px 14px; /*smeni da bide kolku cel nav bar
+    text-decoration: none;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: red;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+nav ul li:hover ul{
+    display: block;
+
+}
+nav ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+}
+nav ul li ul li a{
+    padding: 8px;
+}
+nav ul li ul li a:hover{
+    padding:8px 14px;
+    background-color: #f3f3f3;
+}*/

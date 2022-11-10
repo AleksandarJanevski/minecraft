@@ -1,0 +1,64 @@
+.frame{
+    margin: 100px 20px 100px 250px;
+    background-color: inherit;
+    border: 10px solid greenyellow;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 70%;
+    height: 700px;
+    padding: 30px;
+    position: relative;
+  }
+.content img{
+    width: 50%;
+    height: 50%;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.paragraph{
+    position:absolute;
+    float: right;
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.paragraph h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.paragraph a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.paragraph2{
+    position:absolute;
+    float: left;
+    display: block;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 45%;
+}
+.paragraph2 a{
+    text-decoration: none;
+    color: inherit;
+}
+.img2{
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    margin: 0;
+    right: 30px;
+    bottom: 30px;
+}
+.img2 img{
+    width: 100%;
+    height: 100%;
+}
+
